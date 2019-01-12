@@ -138,6 +138,7 @@
         // シーンの情報の設定
         gl.enable(gl.DEPTH_TEST);
         gl.enable(gl.CULL_FACE);
+        gl.frontFace(gl.CCW);// 半時計まわりの頂点の並びで画面に描くポリゴンだけ描画(ディフォルト値ではある)       
 
         window.requestAnimationFrame(update);
         
