@@ -1,6 +1,8 @@
 # インデックスバッファ
 インデックス参照で頂点を描画します。
 
+https://webglstudy.github.io/07_index_buffer/
+
 ![結果画像](result.gif)
 
 # 課題
